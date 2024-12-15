@@ -10,16 +10,32 @@ import { CdkDragRelease, CdkDragStart } from '@angular/cdk/drag-drop';
   imports: [CommonModule],
   styles: '',
   template: `
-    <div class="container">
-      <div #content style="width: 100%; height: 100%" class="content">
-        <ng-container *ngFor="let table of tableData">
-          <div class="seat" [ngStyle]="{ left: (table.cordinates[0] * extraX) + 'px', top: (table.cordinates[1] * extraY) + 'px', width: ((table.cordinates[2] - table.cordinates[0]) * extraX) + 'px', height: ((table.cordinates[3] - table.cordinates[1]) * extraY) + 'px' }"></div>
-        </ng-container>
-        <img style="width: 100%; height: 100%" #image (load)="imageLoaded(image, content)" src="https://i.pinimg.com/736x/59/c9/34/59c934e388d5ee5da5c69beb2b312425.jpg">
-      </div> 
-      <!-- <div style="display: flex; flex-direction: column;" #personContainer>
-        <img cdkDrag cdkDragBoundary=".content" style="font-size: 3em; padding: 10px; border: 2px solid white" *ngFor="let x of [0, 1, 2, 3, 4, 5, 6, 7, 8]" name="person" (cdkDragReleased)="onDragReleased($event)" (cdkDragStarted)="onDragStarted($event)">
-      </div>    -->
+    <div class="container"> 
+      <br>
+      <br>
+      tathyaa tathyaa tathyaa tathyaa tathyaa<br>
+      tathyaa tathyaa tathyaa tathyaa tathyaa<br>
+      tathyaa tathyaa tathyaa tathyaa tathyaa<br>
+      tathyaa tathyaa tathyaa tathyaa tathyaa<br>
+      tathyaa<br>
+      tathyaa<br>
+      tathyaa<br>
+      tathyaa<br>
+      tathyaa tathyaa tathyaa t<br>
+      tathyaa tathyaa tathyaa a a a<br>
+      tathyaa tathyaa tathyaa th th th<br>
+      tathyaa tathyaa tathyaa yaa yaa yaa<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ta ta ta ta<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aa aa aa<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;th th th<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yaa yaa<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ta ta ta<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;th th th<br>
+      tathyaa tathyaa tathyaa tathyaa yaa yaa<br>
+      tathyaa tathyaa tathyaa tathyaa ta ta <br>
+      tathyaa tathyaa tathyaa tathyaa th th<br>
+      tathyaa tathyaa tathyaa tathyaa yaa<br>
+
     </div>
   `,
 })

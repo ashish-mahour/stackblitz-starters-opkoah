@@ -11,5 +11,15 @@ html {
 }
 
 .container {
-  overflow: scroll;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color: greenyellow;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -2px;
 }
